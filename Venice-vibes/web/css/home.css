@@ -1,0 +1,40 @@
+body {
+              padding: 0;
+              margin: 0;
+              }
+        #mapid {
+              height: 100vh;
+              width: 100vw;
+               }
+               
+               #page{
+                   position: fixed;
+                   width: 100vw;
+                   height: 100vh;
+               }
+               
+               #MenuLat{
+                   height: 40px; 
+                   width: 40px; 
+                   margin-left: 5px; 
+                   margin-top: 5px; 
+                   border-radius: 5px; 
+                   background-color: white; 
+                   cursor: pointer;
+                   box-shadow: 2px 2px 3px 1px;
+                   z-index: 999999 !important;
+               }
+               
+               Ricerca{
+                   height: 40px; 
+                   width: 100%; 
+                   border-radius: 5px; 
+                   background-color: white;  
+                   cursor: pointer;
+                   box-shadow: 2px 2px 3px 1px;
+                   z-index: 999999 !important;
+               }
+               
+               /*#MenuLat{
+                   height: calc(100vh - 10px); width: 200px; margin-left: 5px; margin-top: 5px; border-radius: 5px; background-color: white; position: fixed; z-index: 999999 !important;
+               }*/
